@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* фон/текст холста сторибука, чтобы сразу видеть тему */
+:root {
+  color: var(--fg-1);
+  background: var(--bg-1);
+}
+
+@layer base {
+  html { font-family: var(--font-ui); }
+  button { font: inherit; } /* чтобы наследовала Inter */
+  /* Рекомендовано для аккуратного вида */
+  :root { 
+    font-feature-settings: "tnum" 1;
+    font-optical-sizing: auto;
+    font-synthesis-weight: none;
+  }
+}
