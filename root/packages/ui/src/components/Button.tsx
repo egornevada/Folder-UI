@@ -84,14 +84,14 @@ const padIconBoth: Record<Size, string> = {
 
 /** Размер контейнера иконок (фикс) */
 const iconSize: Record<Size, string> = {
-  sm: "w-[20px] h-[20px]",
-  md: "w-[24px] h-[24px]"
+  sm: "w-[20px] h-[20px] text-[20px]",
+  md: "w-[24px] h-[24px] text-[24px]"
 };
 
 /** Меньший gap для иконочных вариантов */
 const gapIcon: Record<Size, string> = {
-  sm: "gap-[6px]",
-  md: "gap-[8px]"
+  sm: "gap-[4px]",
+  md: "gap-[4px]"
 };
 
 /** Ширина для иконочных (квадратных) кнопок */

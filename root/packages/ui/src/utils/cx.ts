@@ -1,0 +1,1 @@
+export const cx = (...a: (string | false | undefined)[]) => a.filter(Boolean).join(" ");
